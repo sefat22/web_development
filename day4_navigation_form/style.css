@@ -1,0 +1,139 @@
+html{scroll-behavior: smooth;
+}
+.header{
+      border: solid plum;
+      display: flex; /* Bringing the boxes side by side */
+}
+
+.headerlink{
+      display: block;
+      width: 20%;
+      font-size: 50px;
+      text-align: center;
+      text-decoration: none; /* Removing the line under the emoji */
+      transition: ease-in-out 300ms;
+}
+
+.headerlink:hover{
+      opacity: 0.6;/* Fading the icon*/
+      transform: scale(1.1); /*making it bigger*/
+      transform: translateX(-20px);
+}
+
+.headertitle{
+      width: 79%;
+      color:rgb(70, 149, 222);
+}
+
+/* Styling the navbar, the sitelinks*/
+.sitelinks{
+      background-color:rgb(70, 149, 222);
+      display: flex;
+      justify-content: center;
+}
+
+.navlink{
+      display: inline-block;
+      text-align: center;
+      padding: 1em 2em ;
+      width: 33.3%;
+      color:purple;
+}
+
+.navlink:hover{
+      background-color: lightgrey;
+      border: dashed 2px grey;
+      border-radius: 0px;
+}
+
+/* ================MAINBODY====================*/
+.mainbody{
+      display: flex;
+      flex-wrap: wrap ;
+}
+
+.main_div{
+      width: 66%;
+}
+
+.pagelinks{
+      width: 30%;
+}
+
+.main_div section{
+      background-color: bisque;
+      padding: 1em 2em;
+}
+
+.main_div article{
+      background-color: lightblue;
+      padding: 1em 2em;
+}
+/* ================PAGELINKS====================*/
+.pagelinks{
+      padding: 1em;
+}
+.linknav{
+      display: block;
+      padding: 1em;
+      text-align: center;
+      color: blueviolet ;
+}
+.linknav:hover{
+      color: brown;
+      font-weight: 900; 
+}
+
+/* ================FIGURE====================*/
+img{
+      width: 100%;
+      display: block;
+}
+.figureimg{
+      width: 70%;
+      margin: 2% auto;
+      position: relative;
+      box-shadow: 1px 1px 5px grey;
+      overflow: hidden;
+      border-radius: 6px;
+}
+.imgtitle{
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      right: 5%;
+      text-align: center;
+      color: rgb(125, 37, 124);
+}
+
+/* ================FOOTER====================*/
+.contact{
+background-color: rgb(70, 149, 222);
+color: whitesmoke;
+display: flex;
+padding: 20px;
+}
+.contactcolumn{
+      width: 33%;
+}
+.policieslink{
+      color: whitesmoke;
+      padding: 20px top;
+      display: block;
+      text-decoration: none;
+}
+.followlinks{
+      color: whitesmoke;
+      padding: 20px top;
+      display: block;
+      text-decoration: none;
+}
+.followicon{
+      width: 50px;
+      display: inline-block;
+      padding: 1em;
+      opacity: 0.6;
+}
+.followicon:hover{
+      opacity: 1;
+}
