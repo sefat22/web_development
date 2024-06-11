@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Intro to JS by Sefat Monzor</title>
+      <link rel="stylesheet" href="style.css">
+      <!-- We will have style inside the head/ only in the head-->
+</head>
+<body>
+      <!-- We will have JS link/ script inside of the html body tab -->
+      <h1>Introduction to JavaScript</h1>
+      <!-- variables in JS are container, where we can save info like numbers, names, decimal, store functions -->
+      <!-- How do you declare a variable?
+      "let variablename;"
+      after the let keyword we give a varibale name or keep it null -->
+
+      <!-- RULES - Extremely case sensitive 
+       The varibale names can only be started by 
+       1. A letter
+       2. An underscore
+       3. A dollar sign
+       
+       NOT ALLOWED
+       1. No space 
+       2. No keyword-->
+
+       <!-- DATA TYPES
+        1. Numeric data - let x = 100
+        2. String - A group of characters, letters, words to make sentences, always in quotation mark.
+        3. Boolean data - true/false, no quotation mark
+        4. null data - emyty variable, kind of like a place holder
+        5. undefined data -->
+      <script>
+            console.log("Welcome to Javascript Sefat")  /*Console log helps us to print information */ 
+            let number = 10.5; /*Declairing variable*/
+            console.log("The giving is ", number) //console log in basically print in python
+            number++
+            console.log("The updated is ", number)
+
+            let name = "Peter"
+            console.log(name+name)
+            console.log(name+number)
+
+            //COMBINATION BETWEEN DATA TYPES 
+
+            let firstname = prompt("Enter a first name ", "Sefat") //the variable name has to be one word, no dash in between
+            console.log(`Good evening ${firstname}`) //backticks ``
+            //everything collected from the prompt is a string, even thi its a number
+
+            let n1 = prompt("Enter number 1: ", " ")
+            let n2 = prompt("Enter number 2: ", " ")
+            console.log(typeof(n1)) //typeof method of JS that returns the data type 
+
+            //casting = change from one data type to another 
+            n1 = parseInt(n1)
+            n2 = parseInt(n2)
+
+            sum = n1+n2;
+            console.log(`The sum after casting ${sum}`)
+            
+      </script>
+
+</body>
+</html>
