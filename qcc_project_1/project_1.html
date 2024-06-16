@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sefat Monzor</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="body">
+<!-- To make customizations in css, I need to add class in elements. Then call this class in css file.-->
+<!--The navigation link will be in the header section-->
+      <header class="header">
+            <h1 class="headertitle">J A P A N</h1>
+       
+            <!-- COLLAPSIBLE NAVIGATION TABS -->
+    <nav class="navbar navbar-expand-lg nav-expand-sm p-3 fixed-top">
+
+      <!-- Create the home button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemenu">
+      <span>Menu</span>
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Create a dropdown menu -->
+      <div class="collapse navbar-collapse" id="collapsemenu">
+        <nav class="navbar-nav ms-auto">
+          <a href="#home" class="nav-item nav-link m1-3">Home</a>
+          <a href="#card" class="nav-item nav-link m1-3">Explore</a>
+          <a href="#contact" class="nav-item nav-link m1-3">Contact</a>
+        </nav>
+      </div>
+      </nav>
+      </header>
+
+      <nav class="navbar">
+            <!-- <a href="project_1.html" class="navlink">Home</a>  -->
+            <a href="#tokyo" class="navlink">Tokyo</a>
+            <a href="#kyoto" class="navlink">Kyoto</a>
+            <a href="#mountfuji" class="navlink">Mount Fuji</a>
+      </nav>
+
+
+<!--The main body contains the images, different page links, and cards-->
+      <main>
+            <figure class="mountainimg" id="home">
+                  <img src="images/japan.jpg" alt="photo of mountain">
+                  <h2 class="mountainimgtitle">W e l c o m e t o J a p a n</h2>
+            </figure>
+
+            <div>
+                  <p class="introtext">Japan is a country of contrasts, where ancient traditions and cutting-edge technology coexist harmoniously. From the bustling streets of Tokyo to the serene temples of Kyoto, Japan offers a diverse range of experiences for travelers to discover. Whether you're interested in exploring the vibrant pop culture scene, sampling delicious cuisine, or immersing yourself in the country's rich history and culture, Japan has something for everyone. Join us on a journey to explore the beauty and wonder of Japan!</p>
+            </div>
+
+
+<!-- SECTION FOR CARDS  -->
+            <section class="sectioncard" id="card">
+                  <div class="card" id="tokyo">
+                        <img class="cardimg" src="images/tokyo.jpg" alt="photo of tokyo">
+                        <h2 class="cardtitle">Tokyo</h2>
+                        <p class="cardtext">Tokyo, Japan's bustling capital, seamlessly blends ultramodern skyscrapers, historic temples, and vibrant pop culture, making it a dynamic hub of innovation and tradition.</p>
+                        <a href="tokyo.html" class="explore">Explore more about Tokyo!</a>
+                  </div>
+
+                  <div class="card" id="kyoto">
+                        <img class="kyoto" src="images/kyoto.jpg" alt="photo of kyoto" >
+                        <h2 class="cardtitle">Kyoto</h2>
+                        <p class="cardtext">
+                        Kyoto, Japan's ancient capital, is a city of timeless beauty and cultural heritage. With its historic temples, traditional tea houses, and picturesque gardens, Kyoto offers a glimpse into Japan's rich history and traditions.
+                        </p>
+                        <a href="kyoto.html" class="explore">Explore more about Kyoto!</a>
+                  </div>
+
+                  <div class="card" id="mountfuji">
+                        <img class="cardimg" src="images/mountfuji.jpg" alt="photo of mountfuji">
+                        <h2 class="cardtitle">Mount Fuji</h2>
+                        <p class="cardtext">
+                        Mount Fuji, Japan's highest mountain, is an iconic symbol of Japan and a UNESCO World Heritage Site. It is a popular destination for climbers, hikers, and tourists who come to admire its beauty and majesty.
+                        </p>
+                        <a href="mountfuji.html" class="explore">Explore more about Mount Fuji!</a>
+                  </div>
+
+            </section>
+            
+            <section>
+                  <div>
+                        <h1 class="tableheader">EXPENSES </h1>
+                        <table class="table"> 
+                                    <th colspan="3" align="center"></th>
+                              </tr>
+                              <tr> 
+                                    <td> Place</td>
+                                    <td> Flight</td>
+                                    <td> Accomodation</td>
+                              </tr>
+                              <tr>
+                                    <td> Tokyo</td>
+                                    <td> $1000</td>
+                                    <td> $400</td>
+                              </tr>
+                              <tr>
+                                    <td> Kyoto</td>
+                                    <td> $1000</td> 
+                                    <td> $500</td></tr>
+                              <tr>
+                                    <td> Mount Fuji</td>
+                                    <td> $1000</td>
+                                    <td> $700</td>
+                              </tr>
+                        </table>
+                  </div>
+            </section>
+            
+      </main>
+
+<!-- In the footer I will have the contact into, maps and social media links  -->
+      <footer class="footer" id="contact">
+            <div class="footerinfo">
+            <h2>Contact us for more info!</h2>
+            <a href="mailto:sefate1599@gmail.com" style="color:white" class="followlinks">Email Us</a>
+            <a href="signup.html" style="color: white;" class="followlinks">Signup for latest news</a>
+            <address>222-05 56th Ave, Queens, NY 11364</address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2941044015747!2d-73.75908772346884!3d40.75555568494709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c261fb05968f07%3A0x49ff66ba1d2376bd!2sQueensborough%20Community%20College!5e0!3m2!1sen!2sus!4v1717616580422!5m2!1sen!2sus" width="50%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="footerinfo">
+                  <h2>Policies</h2>
+                  <a href="https://www.japan.go.jp/copyright.html" target="_blank" rel="noopener noreferrer" class="followlinks">Japan Policies</a>
+            </div>
+
+            <div class="footerinfo">
+            <h2>Follow us!</h2>
+            <a href="https://www.facebook.com/JapanGov/" target="_blank" rel="noopener noreferrer" class="followlinks">Facebook</a>
+            <img src="Facebook.svg" alt="Follow us on facebook icon" class="followicon">
+
+            <a href="https://www.tiktok.com/tag/japan" target="_blank" rel="noopener noreferrer" class="followlinks">Tiktok</a>
+            <img src="tiktok.svg" alt="Follow us on tiktok icon" class="followicon">
+
+            </div>
+
+
+      </footer>
+</body>

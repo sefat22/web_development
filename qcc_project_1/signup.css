@@ -1,0 +1,51 @@
+.backhome{
+      width: 100px;
+      display:grid;
+      text-align: center;
+}
+.backhome span{
+      font-size: 60px;
+      text-align: center;
+}
+.linkhome{
+      text-decoration: none;
+      color: black;
+}
+.linkhome:hover{
+      opacity: 1;
+}
+.backhome:hover{
+      opacity: 1;
+}
+.form{
+      padding: 10px;
+}
+.form fieldset{
+background-color: lightblue;
+padding: 15px;
+border-radius: 15px;
+width: 60%;
+margin: auto;
+}
+.formlegend{
+      color: white;
+      font-size: 30px;
+      margin: 12px auto;
+      padding: 10px;
+      border-radius: 10px;
+      font-family: cursive;
+      background-color: rgb(3, 98, 101);
+}
+.input{
+      width: 60%;
+      padding: 10px;
+      margin: 12px auto;
+      border-radius: 5px;
+      border: none;
+
+}
+.input label{
+     font-weight: bold;
+      font-size: 20px;
+      padding: 15px;
+}
