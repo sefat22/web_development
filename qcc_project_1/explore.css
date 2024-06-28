@@ -1,0 +1,93 @@
+/* .main{
+      background-color: burlywood;
+} */
+.exploreheader{
+      background-color: cadetblue;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+}
+.exploretitle{
+      font-size: 60px;
+      width: 100%;
+      font-family:cursive;
+      text-shadow: 1px 1px ;
+}
+
+.linkhome{
+      text-decoration: none;
+      color: black;
+      text-shadow: 2px 2px 5px lightgray;
+      font-size: 25px;
+      transition: ease-in-out 200ms;
+      margin-left: 5px;
+
+}
+.imgtitle{
+      position: absolute; 
+      bottom: 40%;
+      right: 30%;
+      left: 30%;
+      top: 40%;
+      text-align: center;
+      padding: 10px;
+      
+}
+.tokyoheader{
+      /* width: 40%;
+      height: auto;
+      margin: auto;
+      display: inline-flex;
+      padding: 20px;
+      margin-left: 10%;
+      margin-right: 10%; */
+      font-size: 40px;
+      font-family:Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+      padding: 20px;
+      margin-left: 35%;
+      margin-right: 30%;
+      text-align: center;
+
+}
+.tokyoimg{
+      width: 40%;
+      height: auto;
+      display: inline-flex;
+      padding: 20px;
+      margin-left: 15%;
+      margin-right: 10%;
+}
+      
+ .img1{
+      width: 65%;
+      height: auto;
+      margin: auto;
+      display: inline-flex;
+            padding: 20px;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: black;
+            
+      }
+.img2{
+      width: 65%;
+      height: auto;
+      margin: auto;
+      display: inline-flex;
+            padding: 20px;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: black;
+            
+      }
+
+.paragraph{
+      font-size: 30px;
+      padding: 60px;
+      width: 70%;
+      display:block ;
+      text-align: justify;
+      margin: auto;
+      font-family:monospace, Haettenschweiler, 'Arial Light', sans-serif ;
+}
