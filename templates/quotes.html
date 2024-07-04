@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Quotes</title>
+      <link rel="stylesheet" href="../static/style.css">
+      <!-- Here to link the style.css file, we have to go back from the templates folder. And we do that by ../ in href -->
+
+</head>
+<body>
+      <main>
+            <form class="quotesform" action="/process" method="post">
+            <!-- method post is send out the data to the frontend -->
+             <h1>Add a quote</h1>
+                   <div class="controlform">
+                        <label for="inputauthor">Quote Author</label>
+                        <input type="text" id="inputauthor" placeholder="Add a quote author..." name="author">
+                  </div>
+
+                  <div class="controlform">
+                        <label for="quote">Quote</label>
+                        <textarea id="quote" rows="5" placeholder="Add your quote..." name="quote"></textarea>
+                  </div>
+
+                  <div class="controlform">
+                        <input class="submitbtn" type="submit">
+                  </div>
+            </form>
+          
+      </main>
+</body>
+</html>
